@@ -9,6 +9,8 @@
 			<string>------------------------------------</string>
 			<string>33BA990A-F534-4056-BB07-B56B8C2E13C9</string>
 			<string>------------------------------------</string>
+			<string>D5F1C533-DAC9-4419-BDF7-900CEEF486F2</string>
+			<string>------------------------------------</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -17,6 +19,8 @@
 				<key>items</key>
 				<array>
 					<string>CBD4BE81-7D67-42A6-B788-C226445F3F7D</string>
+					<string>2A05352A-65D9-42E7-B663-20DC85910E10</string>
+					<string>0F1E089E-D2AE-485A-B787-59525C3252A9</string>
 				</array>
 				<key>name</key>
 				<string>Plugins</string>
@@ -25,6 +29,12 @@
 	</dict>
 	<key>name</key>
 	<string>Octopress</string>
+	<key>ordering</key>
+	<array>
+		<string>CBD4BE81-7D67-42A6-B788-C226445F3F7D</string>
+		<string>2A05352A-65D9-42E7-B663-20DC85910E10</string>
+		<string>0F1E089E-D2AE-485A-B787-59525C3252A9</string>
+	</array>
 	<key>uuid</key>
 	<string>2555D13A-6517-498F-8016-E7FC74037C61</string>
 </dict>

@@ -3,12 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% img${2: ${1:left|center|right} } ${3:/path/to/image}${6: ${4:width} ${5:height}}${9: ${7:title} ${8:alt}} %}</string>
+	<string>${0:${TM_SELECTED_TEXT/\A`(.*)`\z|.*/(?1:$1:`$0`)/m}}</string>
+	<key>keyEquivalent</key>
+	<string>^c</string>
 	<key>name</key>
-	<string>Image</string>
+	<string>Code: Backtick Inline</string>
 	<key>tabTrigger</key>
-	<string>img</string>
+	<string>octo</string>
 	<key>uuid</key>
-	<string>CBD4BE81-7D67-42A6-B788-C226445F3F7D</string>
+	<string>0F1E089E-D2AE-485A-B787-59525C3252A9</string>
 </dict>
 </plist>

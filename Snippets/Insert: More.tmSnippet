@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% img${2: ${1:left|center|right} } ${3:/path/to/image}${6: ${4:width} ${5:height}}${9: ${7:title} ${8:alt}} %}</string>
+	<string>&lt;!-- more --&gt;</string>
 	<key>name</key>
-	<string>Image</string>
+	<string>Insert: More</string>
 	<key>tabTrigger</key>
-	<string>img</string>
+	<string>more</string>
 	<key>uuid</key>
-	<string>CBD4BE81-7D67-42A6-B788-C226445F3F7D</string>
+	<string>D5F1C533-DAC9-4419-BDF7-900CEEF486F2</string>
 </dict>
 </plist>
