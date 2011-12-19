@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% img %}</string>
+	<string>{% img${2: ${1:left|center|right} } ${3:/path/to/image}${6: ${4:width} ${5:height}}${9: ${7:title} ${8:alt}} %}</string>
 	<key>name</key>
 	<string>Image</string>
 	<key>tabTrigger</key>
