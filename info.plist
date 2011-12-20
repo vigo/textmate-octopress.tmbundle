@@ -9,8 +9,7 @@
 			<string>------------------------------------</string>
 			<string>33BA990A-F534-4056-BB07-B56B8C2E13C9</string>
 			<string>------------------------------------</string>
-			<string>01DD9C08-98E0-4435-9FA1-C36049BA78F3</string>
-			<string>D5F1C533-DAC9-4419-BDF7-900CEEF486F2</string>
+			<string>BA0B3506-2E0A-4CFD-BCD4-5862ABB99C03</string>
 			<string>------------------------------------</string>
 		</array>
 		<key>submenus</key>
@@ -28,6 +27,16 @@
 				</array>
 				<key>name</key>
 				<string>Plugins</string>
+			</dict>
+			<key>BA0B3506-2E0A-4CFD-BCD4-5862ABB99C03</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>01DD9C08-98E0-4435-9FA1-C36049BA78F3</string>
+					<string>D5F1C533-DAC9-4419-BDF7-900CEEF486F2</string>
+				</array>
+				<key>name</key>
+				<string>Other</string>
 			</dict>
 		</dict>
 	</dict>

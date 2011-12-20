@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;!-- more --&gt;
-
-$0</string>
+	<string>{% blockquote${1: ${2:[author/@twitter}, ${3:source]}${4: ${5:[link]} ${6:[link title]}}} %}
+$0
+{% endblockquote %}</string>
 	<key>name</key>
-	<string>Excerpts (More)</string>
+	<string>Blockquote</string>
 	<key>scope</key>
 	<string>text.html,text.html.markdown</string>
 	<key>tabTrigger</key>
-	<string>more</string>
+	<string>quo</string>
 	<key>uuid</key>
-	<string>D5F1C533-DAC9-4419-BDF7-900CEEF486F2</string>
+	<string>1ED0313D-C4DF-48FA-9843-DD597BD6FD81</string>
 </dict>
 </plist>

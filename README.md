@@ -1,8 +1,21 @@
 # Octopress bundle for TextMate
 
 This is un-offical bundle for great blogging engine for developers: 
-[Octopress](http://octopress.org/). I just started it. Will be more 
-information soon.
+[Octopress](http://octopress.org/).
+
+## Download & Installation
+To install via Git:
+
+    cd "~/Library/Application Support/TextMate/Bundles"
+    git clone git://github.com/vigo/textmate-octopress.tmbundle.git
+    osascript -e 'tell app "TextMate" to reload bundles'
+
+To install without Git:
+
+    cd "~/Library/Application Support/TextMate/Bundles"
+    wget ...
+    tar xvzf ...
+    osascript -e 'tell app "TextMate" to reload bundles'
 
 # Plugins
 ## Image Plugin: img[tab]
@@ -22,8 +35,19 @@ Inserts codeblock tags.
     code ...
     {% endcodeblock %}
 
+## Blockquote Plugin: quo[tab]
+Inserts blockquote
+
+    {% blockquote [author/@twitter, source] [link] [link title] %}
+    Text...
+    {% endblockquote %}
 
 # Other
+
+## Excerpts
+Inserts `<!-- more -->` to split the post for an excerpt.
+
+
 ## Pygments Language Help: [kntrl+h]
 Shows the list of language syntax names via html form. For more information 
 please visit [Pygments Demo Page](http://pygments.org/demo/)
