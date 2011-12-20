@@ -12,9 +12,12 @@ To install via Git:
 
 To install without Git:
 
-    cd "~/Library/Application Support/TextMate/Bundles"
-    wget ...
-    tar xvzf ...
+    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+    # if this is the first time for bundle installation
+    
+    cd ~/Library/Application\ Support/TextMate/Bundles
+    curl -L https://github.com/vigo/textmate-octopress.tmbundle/tarball/master | tar xz
+    mv vigo-textmate-octopress.* textmate-octopress.tmbundle
     osascript -e 'tell app "TextMate" to reload bundles'
 
 
