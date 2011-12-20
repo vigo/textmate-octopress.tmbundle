@@ -1,0 +1,204 @@
+<style type="text/css" media="screen">
+    body {
+        font: normal normal normal 14px/16px 'Helvetica Neue';
+        margin: 0;
+        padding: 20px;
+    }
+    p {
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+    select, input {
+        font: normal normal normal 14px/16px 'Helvetica Neue';
+        width: 300px;
+    }
+    
+    #syntax {
+    }
+</style>
+<script type="text/javascript" charset="utf-8">
+    function sfnc(self){
+        var s = self;
+        window.setTimeout(function(){
+            s.select();
+        }, 100);
+    }
+</script>
+<form action="#" method="get" accept-charset="utf-8" onsubmit="return false;">
+    <p>
+    <select name="lang" id="lang" onchange="document.getElementById('syntax').value=this.value;">
+        <option value="">Please select the language below</option>
+        <option value="">--------------------------------</option>
+        <option value="abap">ABAP</option>
+        <option value="antlr">ANTLR</option>
+        <option value="antlr-as">ANTLR With ActionScript Target</option>
+        <option value="antlr-csharp">ANTLR With C# Target</option>
+        <option value="antlr-cpp">ANTLR With CPP Target</option>
+        <option value="antlr-java">ANTLR With Java Target</option>
+        <option value="antlr-objc">ANTLR With ObjectiveC Target</option>
+        <option value="antlr-perl">ANTLR With Perl Target</option>
+        <option value="antlr-python">ANTLR With Python Target</option>
+        <option value="antlr-ruby">ANTLR With Ruby Target</option>
+        <option value="as">ActionScript</option>
+        <option value="as3">ActionScript 3</option>
+        <option value="apacheconf">ApacheConf</option>
+        <option value="applescript">AppleScript</option>
+        <option value="asy">Asymptote</option>
+        <option value="bbcode">BBCode</option>
+        <option value="bash">Bash</option>
+        <option value="console">Bash Session</option>
+        <option value="bat">Batchfile</option>
+        <option value="befunge">Befunge</option>
+        <option value="boo">Boo</option>
+        <option value="brainfuck">Brainfuck</option>
+        <option value="c">C</option>
+        <option value="csharp">C#</option>
+        <option value="cpp">C++</option>
+        <option value="cmake">CMake</option>
+        <option value="css">CSS</option>
+        <option value="css+django">CSS+Django/Jinja</option>
+        <option value="css+genshitext">CSS+Genshi Text</option>
+        <option value="css+mako">CSS+Mako</option>
+        <option value="css+myghty">CSS+Myghty</option>
+        <option value="css+php">CSS+PHP</option>
+        <option value="css+erb">CSS+Ruby</option>
+        <option value="css+smarty">CSS+Smarty</option>
+        <option value="cheetah">Cheetah</option>
+        <option value="clojure">Clojure</option>
+        <option value="common-lisp">Common Lisp</option>
+        <option value="cython">Cython</option>
+        <option value="d">D</option>
+        <option value="dpatch">Darcs Patch</option>
+        <option value="control">Debian Control file</option>
+        <option value="sourceslist">Debian Sourcelist</option>
+        <option value="delphi">Delphi</option>
+        <option value="diff">Diff</option>
+        <option value="django">Django/Jinja</option>
+        <option value="dylan">Dylan</option>
+        <option value="erb">ERB</option>
+        <option value="ragel-em">Embedded Ragel</option>
+        <option value="erlang">Erlang</option>
+        <option value="erl">Erlang erl session</option>
+        <option value="evoque">Evoque</option>
+        <option value="fortran">Fortran</option>
+        <option value="gas">GAS</option>
+        <option value="glsl">GLSL</option>
+        <option value="genshi">Genshi</option>
+        <option value="genshitext">Genshi Text</option>
+        <option value="pot">Gettext Catalog</option>
+        <option value="Cucumber">Gherkin</option>
+        <option value="gnuplot">Gnuplot</option>
+        <option value="go">Go</option>
+        <option value="groff">Groff</option>
+        <option value="html">HTML</option>
+        <option value="html+cheetah">HTML+Cheetah</option>
+        <option value="html+django">HTML+Django/Jinja</option>
+        <option value="html+evoque">HTML+Evoque</option>
+        <option value="html+genshi">HTML+Genshi</option>
+        <option value="html+mako">HTML+Mako</option>
+        <option value="html+myghty">HTML+Myghty</option>
+        <option value="html+php">HTML+PHP</option>
+        <option value="html+smarty">HTML+Smarty</option>
+        <option value="haskell">Haskell</option>
+        <option value="ini">INI</option>
+        <option value="irc">IRC logs</option>
+        <option value="io">Io</option>
+        <option value="java">Java</option>
+        <option value="jsp">Java Server Page</option>
+        <option value="js">JavaScript</option>
+        <option value="js+cheetah">JavaScript+Cheetah</option>
+        <option value="js+django">JavaScript+Django/Jinja</option>
+        <option value="js+genshitext">JavaScript+Genshi Text</option>
+        <option value="js+mako">JavaScript+Mako</option>
+        <option value="js+myghty">JavaScript+Myghty</option>
+        <option value="js+php">JavaScript+PHP</option>
+        <option value="js+erb">JavaScript+Ruby</option>
+        <option value="js+smarty">JavaScript+Smarty</option>
+        <option value="llvm">LLVM</option>
+        <option value="lighty">Lighttpd configuration file</option>
+        <option value="lhs">Literate Haskell</option>
+        <option value="logtalk">Logtalk</option>
+        <option value="lua">Lua</option>
+        <option value="moocode">MOOCode</option>
+        <option value="mxml">MXML</option>
+        <option value="basemake">Makefile</option>
+        <option value="make">Makefile</option>
+        <option value="mako">Mako</option>
+        <option value="matlab">Matlab</option>
+        <option value="matlabsession">Matlab session</option>
+        <option value="minid">MiniD</option>
+        <option value="modelica">Modelica</option>
+        <option value="trac-wiki">MoinMoin/Trac Wiki markup</option>
+        <option value="mupad">MuPAD</option>
+        <option value="mysql">MySQL</option>
+        <option value="myghty">Myghty</option>
+        <option value="nasm">NASM</option>
+        <option value="newspeak">Newspeak</option>
+        <option value="nginx">Nginx configuration file</option>
+        <option value="numpy">NumPy</option>
+        <option value="ocaml">OCaml</option>
+        <option value="objective-c">Objective-C</option>
+        <option value="ooc">Ooc</option>
+        <option value="php">PHP</option>
+        <option value="pov">POVRay</option>
+        <option value="perl">Perl</option>
+        <option value="prolog">Prolog</option>
+        <option value="python">Python</option>
+        <option value="python3">Python 3</option>
+        <option value="py3tb">Python 3.0 Traceback</option>
+        <option value="pytb">Python Traceback</option>
+        <option value="pycon">Python console session</option>
+        <option value="rebol">REBOL</option>
+        <option value="rhtml">RHTML</option>
+        <option value="ragel">Ragel</option>
+        <option value="ragel-c">Ragel in C Host</option>
+        <option value="ragel-cpp">Ragel in CPP Host</option>
+        <option value="ragel-d">Ragel in D Host</option>
+        <option value="ragel-java">Ragel in Java Host</option>
+        <option value="ragel-objc">Ragel in Objective C Host</option>
+        <option value="ragel-ruby">Ragel in Ruby Host</option>
+        <option value="raw">Raw token data</option>
+        <option value="redcode">Redcode</option>
+        <option value="rb">Ruby</option>
+        <option value="rbcon">Ruby irb session</option>
+        <option value="splus">S</option>
+        <option value="sql">SQL</option>
+        <option value="scala">Scala</option>
+        <option value="scheme">Scheme</option>
+        <option value="smalltalk">Smalltalk</option>
+        <option value="smarty">Smarty</option>
+        <option value="squidconf">SquidConf</option>
+        <option value="tcl">Tcl</option>
+        <option value="tcsh">Tcsh</option>
+        <option value="tex">TeX</option>
+        <option value="text">Text only</option>
+        <option value="vb.net">VB.net</option>
+        <option value="vala">Vala</option>
+        <option value="vim">VimL</option>
+        <option value="xml">XML</option>
+        <option value="xml+cheetah">XML+Cheetah</option>
+        <option value="xml+django">XML+Django/Jinja</option>
+        <option value="xml+evoque">XML+Evoque</option>
+        <option value="xml+mako">XML+Mako</option>
+        <option value="xml+myghty">XML+Myghty</option>
+        <option value="xml+php">XML+PHP</option>
+        <option value="xml+erb">XML+Ruby</option>
+        <option value="xml+smarty">XML+Smarty</option>
+        <option value="xslt">XSLT</option>
+        <option value="yaml">YAML</option>
+        <option value="aspx-cs">aspx-cs</option>
+        <option value="aspx-vb">aspx-vb</option>
+        <option value="c-objdump">c-objdump</option>
+        <option value="cpp-objdump">cpp-objdump</option>
+        <option value="d-objdump">d-objdump</option>
+        <option value="objdump">objdump</option>
+        <option value="rst">reStructuredText</option>
+        <option value="sqlite3">sqlite3con</option>
+    </select>
+    </p>
+    <p><input type="text" name="syntax" value="" id="syntax" placeholder="Syntax code" onfocus="sfnc(this);"/></p>
+</form>
+<p>
+    For more information and live demostration, please visit: <a href="http://pygments.org/demo/">http://pygments.org/demo/</a>
+</p>
+<p id="debug"></p>

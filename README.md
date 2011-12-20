@@ -15,6 +15,10 @@ Inserts backtick code block.
     code here
     ```
 
+### Backtick Language Helper: [kntrl+h]
+Shows the list of language syntax names via html form. For more information 
+please visit [Pygments Demo Page](http://pygments.org/demo/)
+
 ### Backtick Inline: [kntrl+c]
 Wraps selection with backtick.
 

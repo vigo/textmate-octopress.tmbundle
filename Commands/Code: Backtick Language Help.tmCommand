@@ -5,11 +5,10 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string># just to remind you of some useful environment variables
-# see Help / Environment Variables for the full list
-echo File: "$TM_FILEPATH"
-echo Word: "$TM_CURRENT_WORD"
-echo Selection: "$TM_SELECTED_TEXT"</string>
+	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
+html_header "Backtick Language Help"
+cat "$TM_BUNDLE_SUPPORT/help/commands.html"
+html_footer</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
@@ -17,7 +16,9 @@ echo Selection: "$TM_SELECTED_TEXT"</string>
 	<key>name</key>
 	<string>Code: Backtick Language Help</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>text.html,text.html.markdown</string>
 	<key>uuid</key>
 	<string>01DD9C08-98E0-4435-9FA1-C36049BA78F3</string>
 </dict>
