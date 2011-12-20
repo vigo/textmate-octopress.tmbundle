@@ -18,31 +18,47 @@ To install without Git:
     osascript -e 'tell app "TextMate" to reload bundles'
 
 # Plugins
-## Image Plugin: img[tab]
+## Image: img[tab]
 Inserts `img` tag
 
     {% img [left|center|right] [/path/to/image] [width] [height]  [title] [alt]  %}
 
-## Backtick Code Block Plugin: code[tab]
+## Backtick Code Block: code[tab]
 Inserts backtick code block.
 
     ``` [language] [title] [url] [link text]
     code here
     ```
 
-## Inline Code Block Plugin: code[tab]
+## Inline Code Block: code[tab]
 Inserts codeblock tags.
 
     {% codeblock [title] lang:[lang] [url] [link text] %}
     code ...
     {% endcodeblock %}
 
-## Blockquote Plugin: quo[tab]
+## Blockquote: quo[tab]
 Inserts blockquote
 
     {% blockquote [author/@twitter, source] [link] [link title] %}
     Text...
     {% endblockquote %}
+
+## Pullquote Wrapper: quo[tab]
+Inserts pullquote tags. After entering your text, don't forget to select your
+word/sentence to pullquote via `kntrl+p`
+
+    {% pullquote %}
+    Text...
+    {% endpullquote %}
+
+## Pullquote Puller: [kntrl+p]
+Wraps selectin with `{" Text "}`. Usefull after **Pullquote Wrapper**
+
+    {% pullquote %}
+    Surround your paragraph with the pull quote tags. Then when you come to
+    the text you want to pull, {" surround it like this "} and that's all there is to it.
+    {% endpullquote %}    
 
 # Other
 
@@ -60,3 +76,6 @@ Wraps selection with backtick.
     This is a `selection`
 
 
+# Notes
+
+* Don't forget, this bundle uses html and markdown scopes: `text.html,text.html.markdown`

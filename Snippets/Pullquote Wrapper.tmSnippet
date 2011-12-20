@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!-- Don't forget to select word/sentence for pulling and press kntrl+p --&gt;
+{% pullquote %}
+$0
+{% endpullquote %}
+</string>
+	<key>name</key>
+	<string>Pullquote Wrapper</string>
+	<key>scope</key>
+	<string>text.html,text.html.markdown</string>
+	<key>tabTrigger</key>
+	<string>quo</string>
+	<key>uuid</key>
+	<string>BA56484E-F193-4AE6-B2C0-D2639121B5D7</string>
+</dict>
+</plist>

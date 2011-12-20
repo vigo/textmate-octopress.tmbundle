@@ -24,6 +24,9 @@
 					<string>66F06CBA-A54F-47E0-B08C-E24E38EFB887</string>
 					<string>E085970E-B025-4BA1-B2AB-FE1B8708A065</string>
 					<string>61EC37A7-E430-4FD5-AC79-A39AAC377404</string>
+					<string>1ED0313D-C4DF-48FA-9843-DD597BD6FD81</string>
+					<string>BA56484E-F193-4AE6-B2C0-D2639121B5D7</string>
+					<string>EE9CE83A-4D76-42B5-9E05-35D1D297EEC6</string>
 				</array>
 				<key>name</key>
 				<string>Plugins</string>
@@ -52,6 +55,8 @@
 		<string>61EC37A7-E430-4FD5-AC79-A39AAC377404</string>
 		<string>01DD9C08-98E0-4435-9FA1-C36049BA78F3</string>
 		<string>D5F1C533-DAC9-4419-BDF7-900CEEF486F2</string>
+		<string>1ED0313D-C4DF-48FA-9843-DD597BD6FD81</string>
+		<string>BA56484E-F193-4AE6-B2C0-D2639121B5D7</string>
 	</array>
 	<key>uuid</key>
 	<string>2555D13A-6517-498F-8016-E7FC74037C61</string>
