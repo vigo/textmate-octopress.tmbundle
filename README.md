@@ -15,7 +15,14 @@ Inserts backtick code block.
     code here
     ```
 
-### Backtick Language Helper: [kntrl+h]
+## Inline Code Block Plugin: code[tab]
+Inserts codeblock tags.
+
+    {% codeblock [title] lang:[lang] [url] [link text] %}
+    code ...
+    {% endcodeblock %}
+
+### Pygments Language Help: [kntrl+h]
 Shows the list of language syntax names via html form. For more information 
 please visit [Pygments Demo Page](http://pygments.org/demo/)
 
@@ -23,3 +30,5 @@ please visit [Pygments Demo Page](http://pygments.org/demo/)
 Wraps selection with backtick.
 
     This is a `selection`
+
+

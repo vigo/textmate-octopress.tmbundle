@@ -6,7 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
-html_header "Backtick Language Help"
+html_header "Pygments Language Help"
 cat "$TM_BUNDLE_SUPPORT/help/commands.html"
 html_footer</string>
 	<key>input</key>
@@ -14,7 +14,7 @@ html_footer</string>
 	<key>keyEquivalent</key>
 	<string>^h</string>
 	<key>name</key>
-	<string>Code: Backtick Language Help</string>
+	<string>Pygments Language Help</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>

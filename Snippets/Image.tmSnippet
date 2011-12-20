@@ -3,9 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% img${2: ${1:left|center|right} } ${3:/path/to/image}${6: ${4:width} ${5:height}}${9: ${7:title} ${8:alt}} %}</string>
+	<string>{% img${1: ${2:[left|center|right]}} ${3:[/path/to/image]}${4: ${5:[width]} ${6:[height]} }${7: ${8:[title]} ${9:[alt]} } %}$0</string>
 	<key>name</key>
 	<string>Image</string>
+	<key>scope</key>
+	<string>text.html,text.html.markdown</string>
 	<key>tabTrigger</key>
 	<string>img</string>
 	<key>uuid</key>

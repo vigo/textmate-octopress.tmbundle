@@ -3,9 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;!-- more --&gt;</string>
+	<string>&lt;!-- more --&gt;
+
+$0</string>
 	<key>name</key>
 	<string>Insert: More</string>
+	<key>scope</key>
+	<string>text.html,text.html.markdown</string>
 	<key>tabTrigger</key>
 	<string>more</string>
 	<key>uuid</key>

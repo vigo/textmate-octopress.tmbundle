@@ -3,16 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${0:${TM_SELECTED_TEXT/\A`(.*)`\z|.*/(?1:$1:`$0`)/m}}</string>
-	<key>keyEquivalent</key>
-	<string>^c</string>
+	<string>{% include_code${1: ${2:[title]} }${3: ${4:[language]} } ${5:[filename]} %}
+$0</string>
 	<key>name</key>
-	<string>Code: Backtick Inline</string>
+	<string>Code: Include</string>
 	<key>scope</key>
 	<string>text.html,text.html.markdown</string>
 	<key>tabTrigger</key>
-	<string>octo</string>
+	<string>code</string>
 	<key>uuid</key>
-	<string>0F1E089E-D2AE-485A-B787-59525C3252A9</string>
+	<string>61EC37A7-E430-4FD5-AC79-A39AAC377404</string>
 </dict>
 </plist>
