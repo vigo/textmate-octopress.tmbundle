@@ -4,11 +4,11 @@ This is un-offical bundle for great blogging engine for developers:
 [Octopress](http://octopress.org/). I just started it. Will be more 
 information soon.
 
-## Plugins
-### Image Plugin: img[tab]
+# Plugins
+## Image Plugin: img[tab]
 Inserts `img` tag
 
-### Backtick Code Block Plugin: code[tab]
+## Backtick Code Block Plugin: code[tab]
 Inserts backtick code block.
 
     ``` [language] [title] [url] [link text]
@@ -22,11 +22,13 @@ Inserts codeblock tags.
     code ...
     {% endcodeblock %}
 
-### Pygments Language Help: [kntrl+h]
+
+# Other
+## Pygments Language Help: [kntrl+h]
 Shows the list of language syntax names via html form. For more information 
 please visit [Pygments Demo Page](http://pygments.org/demo/)
 
-### Backtick Inline: [kntrl+c]
+## Backtick Inline: [kntrl+c]
 Wraps selection with backtick.
 
     This is a `selection`
