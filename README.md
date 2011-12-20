@@ -21,6 +21,8 @@ To install without Git:
 ## Image Plugin: img[tab]
 Inserts `img` tag
 
+    {% img [left|center|right] [/path/to/image] [width] [height]  [title] [alt]  %}
+
 ## Backtick Code Block Plugin: code[tab]
 Inserts backtick code block.
 
