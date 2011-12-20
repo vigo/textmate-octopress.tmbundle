@@ -7,7 +7,7 @@
 $0
 {% endcodeblock %}</string>
 	<key>name</key>
-	<string>Code: Inline Code Block</string>
+	<string>Inline Code Block</string>
 	<key>scope</key>
 	<string>text.html,text.html.markdown</string>
 	<key>tabTrigger</key>

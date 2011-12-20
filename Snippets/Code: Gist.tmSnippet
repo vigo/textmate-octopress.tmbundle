@@ -6,7 +6,7 @@
 	<string>{% gist ${1:[gist_id]}${2: ${3:[filename]}} %}
 $0</string>
 	<key>name</key>
-	<string>Code: Gist</string>
+	<string>Gist</string>
 	<key>scope</key>
 	<string>text.html,text.html.markdown</string>
 	<key>tabTrigger</key>

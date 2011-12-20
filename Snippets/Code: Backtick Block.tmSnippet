@@ -7,7 +7,7 @@
 $0
 \`\`\`</string>
 	<key>name</key>
-	<string>Code: Backtick Code Block</string>
+	<string>Backtick Code Block</string>
 	<key>scope</key>
 	<string>text.html,text.html.markdown</string>
 	<key>tabTrigger</key>

@@ -3,16 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${0:${TM_SELECTED_TEXT/\A`(.*)`\z|.*/(?1:$1:`$0`)/m}}</string>
-	<key>keyEquivalent</key>
-	<string>^c</string>
+	<string>{% video ${1:[url]}${2: ${3:[width]} ${4:[height]}}${5: ${6:[url/to/poster]}} %}
+$0</string>
 	<key>name</key>
-	<string>Backtick Inline</string>
+	<string>Video</string>
 	<key>scope</key>
 	<string>text.html,text.html.markdown</string>
 	<key>tabTrigger</key>
-	<string>octo</string>
+	<string>video</string>
 	<key>uuid</key>
-	<string>0F1E089E-D2AE-485A-B787-59525C3252A9</string>
+	<string>DF4997EA-DE2C-4233-B21E-76F23DB64D72</string>
 </dict>
 </plist>

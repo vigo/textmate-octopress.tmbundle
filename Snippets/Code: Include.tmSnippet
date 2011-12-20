@@ -6,7 +6,7 @@
 	<string>{% include_code${1: ${2:[title]} }${3: ${4:[language]} } ${5:[filename]} %}
 $0</string>
 	<key>name</key>
-	<string>Code: Include</string>
+	<string>Include Code</string>
 	<key>scope</key>
 	<string>text.html,text.html.markdown</string>
 	<key>tabTrigger</key>
