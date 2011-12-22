@@ -3,15 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% gist ${1:[gist_id]}${2: ${3:[filename]}} %}
-$0</string>
+	<string>${0:${TM_SELECTED_TEXT/\A{% raw %}
+(.*)
+{% endraw %}\z|.*/(?1:$1:{% raw %}
+$0
+{% endraw %})/m}}</string>
+	<key>keyEquivalent</key>
+	<string>^r</string>
 	<key>name</key>
-	<string>Gist</string>
+	<string>{% raw wrapper %} for Liquid Syntax</string>
 	<key>scope</key>
 	<string>text.html,text.html.markdown,text.html.textile</string>
-	<key>tabTrigger</key>
-	<string>gist</string>
 	<key>uuid</key>
-	<string>E085970E-B025-4BA1-B2AB-FE1B8708A065</string>
+	<string>1EF1C025-C895-4000-AD4E-186DDE575E04</string>
 </dict>
 </plist>

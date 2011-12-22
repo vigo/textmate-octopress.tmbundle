@@ -9,7 +9,7 @@ $0</string>
 	<key>name</key>
 	<string>Excerpts (More)</string>
 	<key>scope</key>
-	<string>text.html,text.html.markdown</string>
+	<string>text.html,text.html.markdown,text.html.textile</string>
 	<key>tabTrigger</key>
 	<string>more</string>
 	<key>uuid</key>

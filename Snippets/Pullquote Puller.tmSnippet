@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Pullquote Puller</string>
 	<key>scope</key>
-	<string>text.html,text.html.markdown</string>
+	<string>text.html,text.html.markdown,text.html.textile</string>
 	<key>uuid</key>
 	<string>EE9CE83A-4D76-42B5-9E05-35D1D297EEC6</string>
 </dict>

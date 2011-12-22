@@ -2,6 +2,11 @@
 This is un-offical bundle for great blogging engine for developers: 
 [Octopress][octopress].
 
+## History
+### Dec 22, 2011
+* `text.html.textile` scope has been added.
+* {% raw %} wrapper has been added.
+
 
 ## Download & Installation
 To install via Git:
@@ -110,6 +115,8 @@ Wraps selection with backtick.
 
     This is a `selection`
 
+## Liquid Syntax Wrapper: [kntrl+r]
+Wraps selection with **{% raw %}** **{% endraw %}** tags to use Liquid syntax.
 
 ## Pygments Language Help: [kntrl+h]
 Shows the list of language syntax names via html form. For more information 
@@ -122,8 +129,8 @@ Inserts `<!-- more -->` to split the post for an excerpt.
 
 
 # Notes
-* Don't forget, this bundle uses html and markdown scopes: `text.html,text.html.markdown`
-
+* Don't forget, this bundle uses html and markdown scopes: `text.html, text.html.markdown and text.html.textile`
+* User raw wrapper `kntrl+r` to publish Liquid syntax. 
 
 [octopress]: http://octopress.org/
 [code]: http://octopress.org/docs/blogging/code/
