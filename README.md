@@ -3,6 +3,9 @@ This is un-offical bundle for great blogging engine for developers:
 [Octopress][octopress].
 
 ## History
+### Dec 25, 2011
+* vimeo plugin has been added.
+
 ### Dec 22, 2011
 * `text.html.textile` scope has been added.
 * {% raw %} wrapper has been added.
@@ -108,6 +111,10 @@ Inserts `video` tag. More [Octopress Website][video-tag]
 
     {% video [url] [width] [height] [url/to/poster] %}
 
+## Vimeo: vimeo[tab]
+Inserts vimeo tag. More [Gosuke Miyashita's blog][pl-vimeo]
+
+    {% vimeo video_id width height %}
 
 # Other
 ## Backtick Inline: [kntrl+c]
@@ -141,3 +148,4 @@ Inserts `<!-- more -->` to split the post for an excerpt.
 [render-partial]: http://octopress.org/docs/plugins/render-partial/
 [video-tag]: http://octopress.org/docs/plugins/video-tag/
 [pygments]: http://pygments.org/demo/
+[pl-vimeo]: http://mizzy.org/blog/2011/10/30/vimeo-tag-plugin/ "Vimeo Plugin"

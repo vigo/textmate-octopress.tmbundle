@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{% vimeo ${1:video_id}${2: ${3:width} ${4:height}} %}
+$0</string>
+	<key>name</key>
+	<string>Vimeo</string>
+	<key>scope</key>
+	<string>text.html,text.html.markdown,text.html.textile</string>
+	<key>tabTrigger</key>
+	<string>vimeo</string>
+	<key>uuid</key>
+	<string>627F3330-A7F7-4FA7-A3ED-822E15D3EEC6</string>
+</dict>
+</plist>
