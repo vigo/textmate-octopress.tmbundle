@@ -1,0 +1,14 @@
+---
+layout: post
+title: ""
+date: ${TM_POST_DATE}
+comments: true 
+categories: []
+tags: []
+description: ""
+keywords: "keyword, keyword"
+---
+Small description
+<!-- more -->
+
+{% render_partial _includes/global_links.markdown %}

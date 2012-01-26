@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>if [[ ! -f "$TM_NEW_FILE" ]]; then
+   TM_YEAR=`date +%Y` \
+   TM_DATE=`date +%Y-%m-%d` \
+   TM_POST_DATE=`date "+%Y-%m-%d %H:%M"` \
+   perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
+      &lt; jekyll-post-template &gt; "$TM_NEW_FILE"
+fi</string>
+	<key>extension</key>
+	<string>md</string>
+	<key>name</key>
+	<string>Post Template</string>
+	<key>uuid</key>
+	<string>FA2150CA-BAED-4E6C-A058-6CD127B93C81</string>
+</dict>
+</plist>
