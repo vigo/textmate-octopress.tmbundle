@@ -89,7 +89,7 @@ For more information visit [Octopress Website][pull-quote]
     {% endpullquote %}    
 
 
-## Render Partial
+## Render Partial: render[tab]
 Inserts `render_partial` tag. More [Octopress Website][render-partial].
 The `render_partial` tag resolves paths to the `source` directory, so write your paths accordingly.
 
@@ -97,7 +97,7 @@ The `render_partial` tag resolves paths to the `source` directory, so write your
     {% render_partial about/index.markdown %} # means: source/about/index.markdown
 
 
-## Video
+## Video: video[tab]
 Inserts `video` tag. More [Octopress Website][video-tag]
 
     {% video [url] [width] [height] [url/to/poster] %}
@@ -108,7 +108,7 @@ Inserts vimeo tag. More [Gosuke Miyashita's blog][pl-vimeo]
     {% vimeo video_id width height %}
 
 ## jsFiddle: jsfiddle[tab]
-Inserts jsfiddle tag.
+Inserts jsfiddle tag. [Click here][jsfiddle] for examples.
 
     {% jsfiddle shorttag [tabs] [skin] [height] [width] %}
 
@@ -137,6 +137,7 @@ Inserts `<!-- more -->` to split the post for an excerpt.
 ---
 * Don't forget, this bundle uses html and markdown scopes: `text.html, text.html.markdown and text.html.textile`
 * User raw wrapper `kntrl+r` to publish Liquid syntax. 
+* Check out [HISTORY.md](https://github.com/vigo/textmate-octopress.tmbundle/blob/master/HISTORY.md) for change log.
 
 [octopress]: http://octopress.org/
 [code]: http://octopress.org/docs/blogging/code/
@@ -148,3 +149,4 @@ Inserts `<!-- more -->` to split the post for an excerpt.
 [video-tag]: http://octopress.org/docs/plugins/video-tag/
 [pygments]: http://pygments.org/demo/
 [pl-vimeo]: http://mizzy.org/blog/2011/10/30/vimeo-tag-plugin/ "Vimeo Plugin"
+[jsfiddle]: http://octopress.org/docs/plugins/jsfiddle-tag/
