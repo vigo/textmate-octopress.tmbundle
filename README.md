@@ -114,6 +114,7 @@ Inserts jsfiddle tag.
 
 
 # Other
+---
 ## Backtick Inline: [kntrl+c]
 Wraps selection with backtick.
 
@@ -133,6 +134,7 @@ Inserts `<!-- more -->` to split the post for an excerpt.
 
 
 # Notes
+---
 * Don't forget, this bundle uses html and markdown scopes: `text.html, text.html.markdown and text.html.textile`
 * User raw wrapper `kntrl+r` to publish Liquid syntax. 
 
