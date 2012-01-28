@@ -19,11 +19,8 @@ To install without Git:
     mv vigo-textmate-octopress.* textmate-octopress.tmbundle
     osascript -e 'tell app "TextMate" to reload bundles'
 
-
----
-
-
 # Plugins
+---
 ## Image: img[tab]
 Inserts `img` tag. More [Octopress Help][img-tag]
 
