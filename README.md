@@ -2,15 +2,6 @@
 This is un-offical bundle for great blogging engine for developers: 
 [Octopress][octopress].
 
-## History
-### Dec 25, 2011
-* vimeo plugin has been added.
-
-### Dec 22, 2011
-* `text.html.textile` scope has been added.
-* {% raw %} wrapper has been added.
-
-
 ## Download & Installation
 To install via Git:
 
@@ -28,6 +19,7 @@ To install without Git:
     mv vigo-textmate-octopress.* textmate-octopress.tmbundle
     osascript -e 'tell app "TextMate" to reload bundles'
 
+---
 
 # Plugins
 ## Image: img[tab]
@@ -115,6 +107,12 @@ Inserts `video` tag. More [Octopress Website][video-tag]
 Inserts vimeo tag. More [Gosuke Miyashita's blog][pl-vimeo]
 
     {% vimeo video_id width height %}
+
+## jsFiddle: jsfiddle[tab]
+Inserts jsfiddle tag.
+
+    {% jsfiddle shorttag [tabs] [skin] [height] [width] %}
+
 
 # Other
 ## Backtick Inline: [kntrl+c]

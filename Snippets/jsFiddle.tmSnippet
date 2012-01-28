@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{% jsfiddle ${1:shorttag}${2: ${3:[tabs]}${4: ${5:[skin]}${6: ${7:[height]} ${8:[width]}}}} %}
+$0</string>
+	<key>name</key>
+	<string>jsFiddle</string>
+	<key>scope</key>
+	<string>text.html,text.html.markdown,text.html.textile</string>
+	<key>tabTrigger</key>
+	<string>jsfiddle</string>
+	<key>uuid</key>
+	<string>B60F7B83-CF99-47C5-B903-C067CE3005D1</string>
+</dict>
+</plist>
