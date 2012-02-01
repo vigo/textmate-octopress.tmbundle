@@ -2,6 +2,9 @@
 This is un-offical bundle for great blogging engine for developers: 
 [Octopress][octopress].
 
+# Warning
+This bundle is designed for bootstrap v1.4. Not ready for v2.0.
+
 ## Download & Installation
 To install via Git:
 
